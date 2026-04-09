@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4431353820305608734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420269322795995786}
+  - component: {fileID: 2891823861536920897}
+  m_Layer: 0
+  m_Name: AutoSpawnController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &420269322795995786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4431353820305608734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9290992, y: 2.9935622, z: -0.0103114275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2891823861536920897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4431353820305608734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075a50caed4ecbf4c9b36ade5ecae9e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 8383994971055409453, guid: 64391f03a71c25649aa2593edaddf52e, type: 3}
+  - {fileID: 6774571060954939411, guid: 7fd6124bd80f16841a55e3dceff4240a, type: 3}
+  - {fileID: 3086509850957966802, guid: fab38d5ae74486b45b78f99116cc7cf2, type: 3}
+  - {fileID: 2500281117172198209, guid: 1dba638b0203a0d458e8357b2dd32dfe, type: 3}
+  - {fileID: 7237387408875410644, guid: 861183a0f19c668409b672a151a5ec5e, type: 3}
+  - {fileID: 1820738149942955454, guid: b790ae699357d6d4a9f03d1717dfbc28, type: 3}
+  - {fileID: 3301075486262324806, guid: b67494d36f77e9042a8f510eed0d416d, type: 3}
+  - {fileID: 8245525374076407775, guid: dcede8b97ae01b44c8755a7efa443135, type: 3}
+  - {fileID: 4161125105753796188, guid: aa7a637704c7b344f8349bd1f1de6f2d, type: 3}
+  - {fileID: 8264536817218984493, guid: 4574799f03727ae418959233df26fe45, type: 3}
+  - {fileID: 3776778094539315680, guid: 1a44bd947d089fe42962062ff6bb91d9, type: 3}
+  - {fileID: 6239482695989287323, guid: 0cb7cab316a527c458ca38b854f6806d, type: 3}
+  - {fileID: 4429198612924236469, guid: c7e0f1475082a5a49b7610fe8b8cd744, type: 3}
+  - {fileID: 3422243615031081781, guid: 14ce37b23b1b46745847a860713d4869, type: 3}
+  - {fileID: 9028927200908900026, guid: c25ed712b733d5e43ba931434626929d, type: 3}
+  - {fileID: 5738523447484912819, guid: c1c8a0c18ace44048a084ede0864c3a8, type: 3}
+  - {fileID: 7872722418329599451, guid: 9cc60dfcf135111429b847e138cc01b4, type: 3}
+  - {fileID: 8385655184270266619, guid: 2853289410cdcf847b01194fcfecb8b9, type: 3}
+  - {fileID: 7281392834078126363, guid: 8110787fe32b4df4fa98ae2eace9d9b4, type: 3}
+  - {fileID: 4996677097837568522, guid: bb9aeb1c85da81742bfcd2f97b2b0593, type: 3}
+  - {fileID: 4947274013395804423, guid: 3a3c31849999f1749baef979d8bc4f92, type: 3}
+  - {fileID: 6769553042693856420, guid: 4fd52f37f0e9a6b4481ca7bf94fc1956, type: 3}
+  - {fileID: 3999818094290742055, guid: d14eacff8f67e48449365e47a1239afa, type: 3}
+  - {fileID: 7005356200364253766, guid: dea27dee1b4719e41ae19d7d6e282c25, type: 3}
+  - {fileID: 7158001884816194043, guid: 8d74f02a9099e3f4d9b2d8fc20d08ab3, type: 3}
+  - {fileID: 639733473151759485, guid: c2dcc3056f22d2248858596572071a94, type: 3}
+  - {fileID: 9207660057733274667, guid: 9ed785728546e1240b121004cd9a5a13, type: 3}
+  - {fileID: 3986763640893239704, guid: e7fa6b9378a38c944ae0b73ac98149ae, type: 3}
+  - {fileID: 1019256077104316346, guid: 00cb59d225f2ff542921c9b3ac48a664, type: 3}
+  - {fileID: 4002830768317866363, guid: 70dc9e0b0b3ee364595110f6793c0bb9, type: 3}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
